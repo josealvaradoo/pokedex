@@ -1,5 +1,5 @@
 {
-  "name": "react-scaffold",
+  "name": "pokedex",
   "version": "1.0.0",
   "main": "index.js",
   "author": "@josealvaradoo",
@@ -26,6 +26,7 @@
     "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
+    "ed-grid": "^2.1.6",
     "react": "^16.2.0",
     "react-dom": "^16.2.0"
   }
