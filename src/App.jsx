@@ -1,14 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { connect } from 'react-redux';
+import Pokedex from './components/Pokedex';
 
-export default class App extends Component
-{
-   constructor(...props) {
-       super(...props)
-       this.state={}
-   }
-   render() {
-      return(
-          <div></div>
-      )
-   }
-}
+const App = () => <Pokedex />
+
+const mapStateToProps = state => ({})
+
+const mapDispatchToProps = dispatch => ({})
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);

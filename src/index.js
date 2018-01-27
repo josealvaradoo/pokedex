@@ -1,8 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
+import 'ed-grid/css/ed-grid.min.css';
+import './assets/css/styles.css';
+import store from './store';
+import { Provider } from 'react-redux';
 
-// Scaffold files
-import Scaffold from './scaffold/index';
-import './scaffold/styles.css';
-
-ReactDOM.render(<Scaffold />, document.getElementById('root'));
+ReactDOM.render(
+	<Provider store={store}>
+		<App />
+	</Provider>, document.getElementById('root'));

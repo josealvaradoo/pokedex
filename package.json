@@ -26,8 +26,11 @@
     "webpack-dev-server": "^2.5.1"
   },
   "dependencies": {
+    "babel-preset-stage-2": "^6.24.1",
     "ed-grid": "^2.1.6",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
   }
 }

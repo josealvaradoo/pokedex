@@ -19,7 +19,7 @@ module.exports = {
                 use: {
                     loader: 'babel-loader',
                     query: {
-                        presets: ['react', 'env']
+                        presets: ['env', 'react', 'stage-2']
                     }
                 }
             },
@@ -33,7 +33,7 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             },
             {
-                test: /\.(png|svg|gif|jpe?g)$/,
+                test: /\.(mp3|png|svg|gif|jpe?g)$/,
                 'exclude': /node_modules/,
                 use: [{
                     loader: 'file-loader'
